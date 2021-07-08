@@ -13,6 +13,7 @@
 		A55AF5412697377500670853 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A55AF53F2697377500670853 /* Main.storyboard */; };
 		A55AF5432697377B00670853 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A55AF5422697377B00670853 /* Assets.xcassets */; };
 		A55AF5462697377B00670853 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A55AF5442697377B00670853 /* LaunchScreen.storyboard */; };
+		A55AF54E269740D000670853 /* ppid.png in Resources */ = {isa = PBXBuildFile; fileRef = A55AF54D269740D000670853 /* ppid.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		A55AF5422697377B00670853 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A55AF5452697377B00670853 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A55AF5472697377B00670853 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A55AF54D269740D000670853 /* ppid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ppid.png; path = ../../../Downloads/ppid.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				A55AF5422697377B00670853 /* Assets.xcassets */,
 				A55AF5442697377B00670853 /* LaunchScreen.storyboard */,
 				A55AF5472697377B00670853 /* Info.plist */,
+				A55AF54D269740D000670853 /* ppid.png */,
 			);
 			path = ppid;
 			sourceTree = "<group>";
@@ -124,6 +127,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A55AF54E269740D000670853 /* ppid.png in Resources */,
 				A55AF5462697377B00670853 /* LaunchScreen.storyboard in Resources */,
 				A55AF5432697377B00670853 /* Assets.xcassets in Resources */,
 				A55AF5412697377500670853 /* Main.storyboard in Resources */,
@@ -287,12 +291,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 29L3Z6DA27;
 				INFOPLIST_FILE = ppid/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = id.ac.its.ppid;
+				PRODUCT_BUNDLE_IDENTIFIER = id.ac.its;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -305,12 +310,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 29L3Z6DA27;
 				INFOPLIST_FILE = ppid/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = id.ac.its.ppid;
+				PRODUCT_BUNDLE_IDENTIFIER = id.ac.its;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
